@@ -44,7 +44,7 @@ export default function useInfiniteScroll({ loading, getReceipts, hasNextPage, r
 }
 ```
 
-## use-infinite-scroll-hook
+## Usage
 
 ```javascript
 import React, {
@@ -54,7 +54,7 @@ import React, {
   useRef
 }  from 'react';
 
-function ReceiptLogList({ filters }) {
+function List({ filters }) {
   const [loading, setLoading] = useState(false);
   const [records, setRecords] = useState([]);
   const [hasNextPage, setHasNextPage] = useState(true);
